@@ -95,6 +95,7 @@ body
 .maindiv {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 10px 10px 20px 10px;
     padding: 10px;
     border-radius: 20px;
@@ -106,20 +107,22 @@ body
     margin-left: 10px;
     padding: 10px;
     border-radius: 20px;
-    flex:1;
+    flex:5;
 }
 
 #rightdiv
 {
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
     border-radius: 20px;
-    flex:1;
+    flex:4;
 }
 
 #tablecountries
 {
+    min-width: 320px;
+    max-width: 530px;
     padding: 5px;
     border-radius: 20px;
     background-color: #92949F;
@@ -146,8 +149,6 @@ body
 #tablecountries td
 {
     border-radius: 20px;
-    min-width: 100px;
-    max-width: 350px;
     height: auto;
 }
 
@@ -158,10 +159,10 @@ body
 
 .imgcountries
 {
-    vertical-align: middle;
     width: 100%;
     height: auto;
     border-radius: 20px;
+    vertical-align: middle;
 }
 
 #hobbieslist
@@ -189,6 +190,7 @@ body
 
 #imghobby
 {
+    min-width: 280px;
     max-width: 500px;
     width: 100%;
     height: auto;
